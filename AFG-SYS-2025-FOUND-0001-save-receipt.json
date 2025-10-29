@@ -1,0 +1,22 @@
+{
+  "title": "AltmanAI Artificial Intelligence System Foundation & Launch Network v1.0 \u2014 Charter",
+  "registry_id": "AFG-SYS-2025-FOUND-0001",
+  "owner": "AltmanAI by Altman Family Group, LLC",
+  "minted_utc": "2025-10-29T23:13:51Z",
+  "status": "MINTED",
+  "policy": {
+    "minting_badge": "v1.1",
+    "device_custody_provenance": "v1.0",
+    "trust_lock": "v1.2 (Ephemeral PIN)",
+    "pdf_protocol": "v2",
+    "footer_spec": "v1.1 BULLETPROOF",
+    "ascii_only": true
+  },
+  "auth": {
+    "nonce": "26676611",
+    "pin_hash_fingerprint": "38103a\u2026b0c845",
+    "approval_proof_sha256": "11a95367f5cfc48310f70cc198e2124b30d9a03500421c93793232dfdc4a3ed8"
+  },
+  "artifact_sha256": "c68b71d4038df3d687b881288081b9ed15b49cf02ef2c61d7e8278a2bf6265b5",
+  "custody": "PENDING_SAVE_BY_HUMAN"
+}

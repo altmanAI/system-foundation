@@ -1,0 +1,74 @@
+{
+  "manifest_version": "1.0",
+  "minted_utc": "2025-10-29T23:13:51Z",
+  "title": "AltmanAI System Foundation and Launch Network",
+  "registry_ids": {
+    "charter": "AFG-SYS-2025-FOUND-0001",
+    "launch_network": "AFG-NET-2025-LAUNCH-0001"
+  },
+  "trust_lock": {
+    "mode": "v1.2",
+    "two_key_confirm": true,
+    "pin_storage": "hash_fingerprint_only"
+  },
+  "foundation_pillars": [
+    "Identity and Authorization: Trust-Lock v1.2, Two-Key confirm, NONCE + PIN, ephemeral PIN usage only.",
+    "Proof-of-Impact (PAIHI): Registry, badges, custody provenance, save-receipts, portable verification.",
+    "Safety and Governance: Responsible Acceleration Pledge v1.0, release gates, incident response, audit.",
+    "Model and Agent Layer: model serving, tool-use policy engine, human-in-the-loop for sensitive actions.",
+    "Data Layer: consented data only, minimization, privacy controls, retention defaults.",
+    "Application Layer: DailyPilot and future apps with scorecards and guard bands.",
+    "DevSecOps and Infra: environments (dev, stage, prod), CI/CD, supply chain security, secrets management.",
+    "Observability and Telemetry: evaluations, red-team signals, abuse detection, rollback drills.",
+    "Privacy and Compliance: PII redaction targets, data subject rights flows, logging policies.",
+    "Partner Integrations: Apple stack focus and public mirrors of artifacts for transparency."
+  ],
+  "operating_protocols": [
+    "Two-Key Confirm: ARM MINT then EXECUTE with NONCE + PIN.",
+    "Release Gates: accident risk down >= 20 percent; P0 misuse <= 0.5 percent; privacy >= 99.9 percent recall; 0 P0 vulns.",
+    "Custody: iOS Files with Face ID presence; receipt updated after confirmation.",
+    "Audit and Red-Team: external scope, yearly audit, public postmortems.",
+    "Change Control: semantic versioning; sunset features if hazard increases."
+  ],
+  "launch_network": [
+    "GitHub Org as main public website: repos for RAP-0002, scorecards, documentation, checksums.",
+    "Public Pages or README: human-readable pledge, scorecards, and links to receipts.",
+    "Press and Social: announcement templates; BUILD call to action; weekly build logs.",
+    "Release Calendar: staged launches with scorecard attachments and hashes.",
+    "Portable Verifier: page to paste artifact SHA-256 and view status from PAIHI."
+  ],
+  "environments": [
+    "Development: rapid iteration with safety toggles, synthetic data only.",
+    "Staging: full PREVIEW runs, red-team hooks, rollback practice.",
+    "Production: EXECUTE gate only after scorecard PASS and approvals.",
+    "Secrets Management: rotation policy and least privilege.",
+    "Observability: unified dashboard for evals, incidents, and custody state."
+  ],
+  "minting_schedule": [
+    "Week 0 (now): Charter MINT + Launch Network PREVIEW; RAP-0002 mirrored to GitHub.",
+    "Week 1: Pledge Scorecard README + public mirror MINT; DailyPilot Alpha Scorecard v1 PREVIEW.",
+    "Week 2: Master Ledger Index v1 MINT; Civic Engine Simulations 1-3 PREVIEW->MINT.",
+    "Week 3-4: ALT-SEAL Press Kit v1; Partner Transparency Page v1.",
+    "Q1 2026: DailyPilot beta scorecard v2, public waitlist comms, app store pipeline docs."
+  ],
+  "current_artifacts": [
+    {
+      "id": "AFG-PAIHI-2025-10-29-RAP-0002",
+      "title": "Responsible Acceleration Pledge v1.0",
+      "status": "MINTED"
+    },
+    {
+      "id": "AFG-PAIHI-2025-10-29-RAP-0001-VOID-0003",
+      "title": "VOID ORDER \u2014 RAP-0001",
+      "status": "MINTED"
+    },
+    {
+      "id": "AFG-SYS-2025-FOUND-0001",
+      "title": "System Foundation Charter v1.0",
+      "status": "MINTED"
+    }
+  ],
+  "hashes": {
+    "charter_pdf_sha256": "c68b71d4038df3d687b881288081b9ed15b49cf02ef2c61d7e8278a2bf6265b5"
+  }
+}
